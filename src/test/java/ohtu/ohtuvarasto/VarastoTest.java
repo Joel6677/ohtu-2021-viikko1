@@ -123,7 +123,7 @@ public class VarastoTest {
     @Test
     public void otaEnemmanKuinSaldo() {
         varasto.otaVarastosta(10000);
-        assertEquals(0, varasto.getSaldo(), vertailuTarkkuus);
+        assertEquals(5, varasto.getSaldo(), vertailuTarkkuus);
     }
 
     @Test
